@@ -1,4 +1,4 @@
-# Night Drive 🚗🌙
+# Night Drive
 **Project UTS Game - Unity 3D**
 
 **Identitas Pengembang:**
