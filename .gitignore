@@ -1,0 +1,60 @@
+# ==========================================
+# 1. FILE & FOLDER SAMPAH UNITY (WAJIB)
+# ==========================================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ==========================================
+# 2. FOLDER PRAKTEK LAINNYA DI ASSETS
+# (Menyisakan UTS, Settings, TextMesh Pro, dan Readme)
+# ==========================================
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+/[Aa]ssets/Animasi/
+/[Aa]ssets/Animasi.meta
+/[Aa]ssets/Asset_UTS/
+/[Aa]ssets/Asset_UTS.meta
+/[Aa]ssets/Import\ Asset/
+/[Aa]ssets/Import\ Asset.meta
+/[Aa]ssets/Materials/
+/[Aa]ssets/Materials.meta
+/[Aa]ssets/Resources/
+/[Aa]ssets/Resources.meta
+/[Aa]ssets/Scenes/
+/[Aa]ssets/Scenes.meta
+/[Aa]ssets/Script/
+/[Aa]ssets/Script.meta
+/[Aa]ssets/TutorialInfo/
+/[Aa]ssets/TutorialInfo.meta
