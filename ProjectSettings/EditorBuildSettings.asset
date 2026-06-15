@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 5fafc38c5514f2347a5efce08830cbff
+  - enabled: 0
     path: Assets/Scenes/Mobil 3D.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
+  - enabled: 1
     path: Assets/UTS/scene/Night Drive 1.unity
     guid: f325076fc18b2004c8255bbb8e437a0e
-  - enabled: 0
+  - enabled: 1
     path: Assets/UTS/scene/Night Drive 2.unity
     guid: 1f249ded28e22364893fa4e37a365994
   m_configObjects:

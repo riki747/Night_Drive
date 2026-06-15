@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class cursorLockNight : MonoBehaviour // <-- NAMA CLASS DISAMAKAN DENGAN NAMA FILE
+public class cursorLockNight : MonoBehaviour 
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,3 +20,4 @@ public class cursorLockNight : MonoBehaviour // <-- NAMA CLASS DISAMAKAN DENGAN 
         
     }
 }
+
