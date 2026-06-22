@@ -1359,7 +1359,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960804702}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.017622376, y: 0.00044882175, z: -0.000007910534, w: 0.9998447}
+  m_LocalRotation: {x: 0.017622376, y: 0.0004514255, z: -0.000007956426, w: 0.9998447}
   m_LocalPosition: {x: -0.000000013038516, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1862,7 +1862,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713193483}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.035758115, y: 0.00044860409, z: -0.000016051503, w: 0.9993604}
+  m_LocalRotation: {x: 0.035758115, y: 0.0004512066, z: -0.000016144624, w: 0.9993604}
   m_LocalPosition: {x: 0.0000000055879354, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2316,7 +2316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997149174}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.053930055, y: 0.0004482379, z: -0.000024208728, w: 0.99854463}
+  m_LocalRotation: {x: 0.053930055, y: 0.0004508383, z: -0.000024349172, w: 0.99854463}
   m_LocalPosition: {x: 0.0000000055879354, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2611,6 +2611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2221033854669293889}
   - component: {fileID: 2141418486280457033}
+  - component: {fileID: 2424196197398526665}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -2618,6 +2619,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+--- !u!114 &2424196197398526665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2424196197398526664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!23 &3898465228095725183
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5815,7 +5845,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: 9a91c5e887f917e419bfe9f63efe6056, type: 3}
 --- !u!95 &3970837581506946979
@@ -6591,7 +6621,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ea5877e79706cd46a6191f9c21e1ec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CarControllerNight
+  joystick: {fileID: 0}
   motorForce: 2000
+  brakeForce: 10000
   maxSteerAngle: 30
   frontLeftWheelCollider: {fileID: 948008495}
   frontRightWheelCollider: {fileID: 728588744}
@@ -7628,6 +7660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6436866848248432401}
   - component: {fileID: 6499030759826490649}
+  - component: {fileID: 7359606740434990233}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -7635,6 +7668,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+--- !u!114 &7359606740434990233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7359606740434990232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!23 &7388621993490161390
 MeshRenderer:
   m_ObjectHideFlags: 0
