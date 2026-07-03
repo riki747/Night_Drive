@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Mobil 3D.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/UTS/scene/Tutorial.unity
+    guid: 720fbfb18d761594888bfa73871b91cb
+  - enabled: 1
     path: Assets/UTS/scene/Night Drive 1.unity
     guid: f325076fc18b2004c8255bbb8e437a0e
   - enabled: 1
